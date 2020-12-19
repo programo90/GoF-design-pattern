@@ -1,4 +1,4 @@
-package Bridge;
+package bridge;
 
 public abstract class DisplayImpl {
 	public abstract void rawOpen();

@@ -1,4 +1,4 @@
-package Bridge;
+package bridge;
 
 public class CountDisplay extends Display{
 	public CountDisplay(DisplayImpl impl) {

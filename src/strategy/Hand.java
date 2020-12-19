@@ -1,4 +1,4 @@
-package Strategy;
+package strategy;
 
 public class Hand {
 	public static final int HADVALUE_GUU = 0;

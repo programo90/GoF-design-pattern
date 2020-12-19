@@ -1,4 +1,4 @@
-package Strategy;
+package strategy;
 
 public interface Strategy {
 	public abstract Hand nextHand();
