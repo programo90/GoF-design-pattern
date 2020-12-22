@@ -24,7 +24,7 @@ public class Hand {
 		return hand[handvalue];
 	}
 	
-	public boolean isStringerThan(Hand h) {
+	public boolean isStrongerThan(Hand h) {
 		return fight(h)==1;
 	}
 	

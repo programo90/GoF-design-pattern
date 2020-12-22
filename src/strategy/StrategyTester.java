@@ -17,11 +17,11 @@ public class StrategyTester {
 		for(int i=0; i<10000; i++) {
 			Hand nextHand1 = p1.nextHand();
 			Hand nextHand2 = p2.nextHand();
-			if(nextHand1.isStringerThan(nextHand2)) {
+			if(nextHand1.isStrongerThan(nextHand2)) {
 				System.out.println("Winner: " + p1);
 				p1.win();
 				p2.lose();
-			} else if(nextHand2.isStringerThan(nextHand1)) {
+			} else if(nextHand2.isStrongerThan(nextHand1)) {
 				System.out.println("Winner: " + p2);
 				p1.lose();
 				p2.win();
