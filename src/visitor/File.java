@@ -1,4 +1,4 @@
-package visitor2;
+package visitor;
 
 public class File extends Entry{
 	private String name;

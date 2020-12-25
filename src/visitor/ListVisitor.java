@@ -1,4 +1,4 @@
-package visitor2;
+package visitor;
 
 import java.util.Iterator;
 

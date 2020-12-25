@@ -1,4 +1,4 @@
-package visitor2;
+package visitor;
 
 public class VisitorTester {
 	public static void main(String[] args) {

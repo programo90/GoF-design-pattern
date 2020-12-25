@@ -1,4 +1,4 @@
-package visitor2;
+package visitor;
 
 public class FileTreatmentException extends RuntimeException{
 	public FileTreatmentException() {
